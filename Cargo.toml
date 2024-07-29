@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+    "reactive-graph-custom-plugin",
+    "reactive-graph-plugin-api",
+    "reactive-graph-host"
+]

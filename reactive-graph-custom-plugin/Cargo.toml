@@ -1,0 +1,15 @@
+[package]
+name = "reactive-graph-custom-plugin"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[package.metadata.component]
+package = "reactive-graph:reactive-graph-plugin"
+
+[package.metadata.component.dependencies]
+
+[dependencies]
+reactive-graph-plugin-api = { path = "../reactive-graph-plugin-api" }

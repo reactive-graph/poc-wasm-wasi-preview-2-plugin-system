@@ -1,0 +1,10 @@
+[package]
+name = "reactive-graph-host"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+tokio = { version = "1.38.0", features = ["full"] }
+wasmtime = { version= "23.0.1", features=["component-model", "cranelift", "std", "runtime"] }
+wasmtime-wasi = "23.0.1"

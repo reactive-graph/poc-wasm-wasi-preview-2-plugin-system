@@ -1,0 +1,6 @@
+package reactive-graph:reactive-graph-plugin;
+
+world reactive-graph-plugin {
+  // export a function called greeting that takes a name with type string and returns a string
+  export greeting: func(name: string) -> string;
+}
